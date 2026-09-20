@@ -8,9 +8,3 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('Hello, World!');
 });
-
-app.json
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
